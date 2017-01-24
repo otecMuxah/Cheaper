@@ -23,8 +23,6 @@ $('a.mainclick').bind('click', function (event) {
     event.preventDefault();
 });
 
-
-<<<<<<< HEAD
 window.onscroll = function() {scrollMenu()};
 window.ontouchstart = function () {scrollMenu()};
 function scrollMenu(){
@@ -35,23 +33,5 @@ function scrollMenu(){
 		$('.siteheader').removeClass('scrolled');
 	}
 };
-=======
-window.onscroll = function () {
-    scrollMenu();
-};
-window.ontouchstart = function () {
-    scrollMenu();
-}
-
-function scrollMenu() {
-    var mmenu = $('.siteheader').offset();
-    console.log(mmenu);
-    if (mmenu.top > 100) {
-        $('.siteheader').addClass('scrolled');
-    } else {
-        $('.siteheader').removeClass('scrolled');
-    }
-}
->>>>>>> origin/master
 
 
