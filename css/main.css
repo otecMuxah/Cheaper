@@ -535,6 +535,7 @@ body {
 	margin: 0px 0px 0px -180px;
 	padding: 0px 0px 0px 180px;
 	border-left: solid #b8d9fd 1px;
+	overflow: hidden;
 }
 .sitecontent .block_2 .block_2_in p {
 	margin: 10px 0px 10px 0px;
@@ -1378,6 +1379,7 @@ body {
 	.sitefooter {
 		height: auto;
 		margin: 123px 0px 0px 0px;
+		overflow: hidden;
 	}
 	.sitefooter .footerbottom {
 		position: relative;
@@ -1402,6 +1404,7 @@ body {
 	}
 	.sitecontent .block_3 .block_3_in .block_3_header {
 		margin: 0px 0px 48px 79px;
+		overflow: hidden;
 	}
 	.sitecontent .block_3:after {
 		display: none;
@@ -1417,7 +1420,7 @@ body {
 	}
 	.sitecontent .block_3 .block_3_in .block_3_right {
 		overflow: hidden;
-		width: 480px;
+		width: 100%;
 		float: none;
 		margin: 0px auto 0px auto;
 		clear: both;
@@ -1446,7 +1449,7 @@ body {
 		width: 100%;
 	}
 	.sitefooter .footercontact .footercontactbox .footercontactboxitem {
-		width: 480px;
+		width: 100%;
 		clear: both;
 		float: none;
 		height: 200px;
