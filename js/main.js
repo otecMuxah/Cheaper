@@ -24,7 +24,7 @@ $('a.mainclick').bind('click', function (event) {
 });
 
 window.onscroll = function() {scrollMenu()};
-// window.ontouchstart = function () {scrollMenu()};
+
 function scrollMenu(){
 	var mmenu = $('.siteheader').offset();
 	if(mmenu.top > 100){
