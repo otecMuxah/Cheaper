@@ -24,6 +24,18 @@ $('a.mainclick').bind('click', function (event) {
 });
 
 
+<<<<<<< HEAD
+window.onscroll = function() {scrollMenu()};
+window.ontouchstart = function () {scrollMenu()};
+function scrollMenu(){
+	var mmenu = $('.siteheader').offset();
+	if(mmenu.top > 100){
+		$('.siteheader').addClass('scrolled');
+	}else{
+		$('.siteheader').removeClass('scrolled');
+	}
+};
+=======
 window.onscroll = function () {
     scrollMenu();
 };
@@ -40,5 +52,6 @@ function scrollMenu() {
         $('.siteheader').removeClass('scrolled');
     }
 }
+>>>>>>> origin/master
 
 
